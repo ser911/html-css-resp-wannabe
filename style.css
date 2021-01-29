@@ -75,18 +75,31 @@ img {
 /* MEDIA QUERIES */
 @media screen and (max-width: 1000px) {
 
-.row, #steps, #why {
+#lezioni{
+  width: 100%;
+}
+.row{
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  }
+.row > h1{
+  padding-bottom: 30px;
+}
+#steps .row>.left{
+  width: 30%;
+  margin-right: 5%;
+}
+#steps .row>.central{
+  width: 30%;
+  margin-right: 5%;
+}
+#steps .row>.right{
+  width: 30%;
 }
 
-
-
-
-
-
-
-
+hr{
+  margin-top: 40px;
+}
 }
 /* /MEDIA QUERIES */
